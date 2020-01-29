@@ -25,9 +25,9 @@ from skeletons.account_helpers.settings_core import ISettingsCore
 class _Config(object):
     def __init__(self):
         self.ids = 'dispersionCircle'
-        self.version = 'v3.08 (2019-10-11)'
-        self.version_id = 308
-        self.author = 'by StranikS_Scan'
+        self.version = 'v3.09 (2020-01-29)'
+        self.version_id = 309
+        self.author = 'StranikS_Scan fixed by JustDj'
         self.data = {
             'enabled'              : True,
             'ReplaceOriginalCircle': True,
