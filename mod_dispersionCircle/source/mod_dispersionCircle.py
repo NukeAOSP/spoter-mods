@@ -436,7 +436,7 @@ def setShotPosition(func, self, vehicleID, shotPos, shotVec, dispersionAngle, fo
             return func(self, vehicleID, shotPos, shotVec, dispersionAngle, forceValueRefresh)
         # dispersionAngles = {0: dispersionAngle, 1: dispersionAngle}
         markerPos, markerDir, markerSize, idealMarkerSize, collData = self._VehicleGunRotator__getGunMarkerPosition(shotPos, shotVec, self._VehicleGunRotator__dispersionAngles)
-        self._VehicleGunRotator__avatar.inputHandler.updateGunMarker2(markerPos, markerDir, (markerSize, idealMarkerSize), SERVER_TICK_LENGTH, collData)
+        self._avatar.inputHandler.updateGunMarker2(markerPos, markerDir, (markerSize, idealMarkerSize), SERVER_TICK_LENGTH, collData)
         return
     func(self, vehicleID, shotPos, shotVec, dispersionAngle, forceValueRefresh)
 
